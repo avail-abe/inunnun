@@ -1,0 +1,381 @@
+html {
+    .hachi-maru-pop-regular {
+        font-family: "Hachi Maru Pop", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* .kaisei-decol-regular {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.kiwi-maru-regular {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
+}
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header {
+    padding: 27px 0;
+}
+
+.pop {
+    font-family: "Comic Sans MS";
+}
+
+.logo {
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.logo span {
+    color: #668efd;
+}
+
+.header_menu li {
+    font-family: "Comic Sans MS";
+    margin-left: 40px;
+}
+
+.header_menu li a {
+    transition: .3s;
+}
+
+.header_menu li a:hover {
+    color: #668efd;
+}
+
+
+
+
+#hero {
+    background-image: url(../images/header1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+
+#hero::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.hero_inner {
+    z-index: 2;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+
+.hero_inner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.hero_inner h1 {
+    font-size: 32px;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+
+/* @media only screen and(max-width:768px){
+    #hero{height:460px;}
+    .hero_inner p{font-size:15px;}
+.hero_inner h1{font-size:17px;}
+} */
+
+#concept {
+    margin-bottom: 120px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #668efd;
+    margin-bottom: 40px;
+
+}
+
+#concept h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.column-2 {
+    width: 48%;
+}
+
+.text {
+    line-height: 2;
+}
+
+.concept-img {
+    background-image: url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 430px;
+    height: 330px;
+    border-radius: 30px;
+
+}
+
+.heading {
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    font-weight: 400;
+    color: #668efd;
+    font-style: normal;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-30%);
+    z-index: -1;
+}
+
+/* @media only screen and(max-width:768px){
+    #concept h3{
+    font-size: 24px;
+    line-height: 1.5;
+ }
+     .column-2{
+    width: 100%;
+  }
+  .text{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .concept-img{
+    margin-top: 30px;
+  }
+} */
+
+#intro {
+    margin-bottom: 120px;
+}
+
+.intro_inner {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.column-40 {
+    width: 40%;
+}
+
+.column-55 {
+    width: 55%;
+}
+
+#intro img {
+    border-radius: 20px;
+}
+
+#intro h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* @media only screen and(max-width:768px){
+    .column-40{
+    width:100%;
+    margin-bottom: 30px;
+}
+.column-55{
+    width:100%;
+}
+#intro h3{
+    font-size:17px;
+}
+} */
+
+#contact {
+    margin-bottom: 120px;
+}
+
+#contact dl {
+    max-width: 900px;
+    margin-left: auto;
+}
+
+#contact dt {
+    width: 30%;
+    padding: 48px 0;
+    font-weight: 500;
+    border-bottom: solid 1px #8eacff;
+}
+
+#contact dd {
+    width: 70%;
+    padding: 48px 0;
+    border-bottom: solid 1px #8eacff;
+}
+
+/* @media only screen and(max-width:768px){
+    #contact dl{
+    font-size: 13px;
+}
+} */
+
+.column-a {
+    background-image: url(../images/outyaku.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.column-b {
+    background-image: url(../images/furikaeri.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 18%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.column-c {
+    background-image: url(../images/sanpo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.column-d {
+    background-image: url(../images/cute.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 28%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+/* @media only screen and(max-width:768px){
+    .column-a, .column-b, .column-c, .column-d{
+     width: 48%;
+     height: 140px;
+     margin: 1%;
+    }
+} */
+
+
+@media screen and (max-width: 768px) {
+    header .container {
+        justify-content: center;
+    }
+
+    .header_menu li {
+        margin: 20px 16px 0;
+    }
+
+    #hero {
+        width: 300px;
+        height: 460px;
+    }
+
+    .hero_inner p {
+        font-size: 15px;
+    }
+
+    .hero_inner h1 {
+        font-size: 17px;
+    }
+
+    #concept h3 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .concept-img {
+        margin-top: 30px;
+    }
+
+    .column-40 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .column-55 {
+        width: 100%;
+    }
+
+    #intro h3 {
+        font-size: 17px;
+    }
+
+    #contact dl {
+        font-size: 13px;
+    }
+
+    .column-a,
+    .column-b,
+    .column-c,
+    .column-d {
+        width: 48%;
+        height: 140px;
+        margin: 1%;
+    }
+
+}
+
+footer {
+    text-align: center;
+    margin: 90px 0;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 40px;
+}
