@@ -72,7 +72,7 @@ header {
 
 
 #hero {
-    background-image: url(../images/header1.jpg);
+    background-image: url(./header1.jpg);
     background-position: center;
     background-size: cover;
     width: 600px;
@@ -148,7 +148,7 @@ header {
 }
 
 .concept-img {
-    background-image: url(../images/header.jpg);
+    background-image: url(./header.jpg);
     background-position: center;
     background-size: cover;
     width: 430px;
@@ -258,7 +258,7 @@ header {
 } */
 
 .column-a {
-    background-image: url(../images/outyaku.jpg);
+    background-image: url(./outyaku.jpg);
     background-position: center;
     background-size: cover;
     width: 24%;
@@ -267,7 +267,7 @@ header {
 }
 
 .column-b {
-    background-image: url(../images/furikaeri.jpg);
+    background-image: url(./furikaeri.jpg);
     background-position: center;
     background-size: cover;
     width: 18%;
@@ -276,7 +276,7 @@ header {
 }
 
 .column-c {
-    background-image: url(../images/sanpo.jpg);
+    background-image: url(./sanpo.jpg);
     background-position: center;
     background-size: cover;
     width: 24%;
@@ -285,7 +285,7 @@ header {
 }
 
 .column-d {
-    background-image: url(../images/cute.jpg);
+    background-image: url(./cute.jpg);
     background-position: center;
     background-size: cover;
     width: 28%;
